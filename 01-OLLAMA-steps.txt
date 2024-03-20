@@ -1,0 +1,33 @@
+01) OLLAMA
+***Install ollama from ollama.ai or from thumbdrive
+
+02) ***Ollama models
+download from ollama.ai/models
+
+or
+
+From thumbdrive copy contents of models folder to your models folder on your computer
+	Windows should be c:/users/<username>/.ollama/models
+	Mac should be /Users/<userid>/.ollama/models
+
+in a command prompt type ollama list
+	you will see the model you have
+To use model, type
+
+ollama run <model name>
+
+03) ***Install Docker Desktop
+From https://www.docker.com/products/docker-desktop/
+or from thumbdrive
+
+***Install open webui - docker
+
+04) docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+
+05) open-webui should be running. Open a browser to localhost:3000
+You should see the web interface and log in. First account created will have admin priveleges.
+
+Explore settings and features...
+
+
+

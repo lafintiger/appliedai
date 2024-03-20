@@ -1,0 +1,8 @@
+1) Install lmstudio from lmstudio.ai or from thumbdrive
+
+2) Open lmstudio
+	> my modes (left side panel)
+	> Reveal in finder/explorer
+3) FROM thumbdrive 02-lmstudio\models Copy CONTENTS of directory to your computer lmstudio models directory
+
+	

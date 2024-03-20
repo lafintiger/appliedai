@@ -1,0 +1,54 @@
+LMStudio
+
+
+
+
+
+
+***Downloading models from the cli
+pip3 install huggingface-hub
+Then you can download any individual model file to the current directory, at high speed, with a command like this:
+
+huggingface-cli download TheBloke/CapybaraHermes-2.5-Mistral-7B-GGUF capybarahermes-2.5-mistral-7b.Q4_K_M.gguf --local-dir . --local-dir-use-symlinks False
+
+
+OLLAMA
+***Install ollama from ollama.ai or from thumbdrive
+
+
+***Install Docker Desktop
+From https://www.docker.com/products/docker-desktop/
+or from thumbdrive
+
+***Install open webui - docker
+
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+
+
+***Ollama models
+download from ollama.ai/models
+
+or
+From thumbdrive copy contents of models folder to your models folder on your computer
+	Windows should be c:/users/<username>/.ollama/models
+	Mac should be /Users/<userid>/.ollama/models
+
+
+(base) d:\CodeRepo>ollama list
+NAME                            ID              SIZE    MODIFIED
+bakllava:latest                 3dd68bd4447c    4.7 GB  12 minutes ago
+deepseek-coder:6.7b             ce298d984115    3.8 GB  4 weeks ago
+gemma:2b-instruct               91bff873f359    1.4 GB  3 weeks ago
+gemma:2b-instruct-q5_K_M        18fcc89254b1    1.8 GB  3 weeks ago
+gemma:2b-text-q5_K_M            9bd9c9df8909    1.8 GB  3 weeks ago
+gemma:7b-instruct-q5_K_M        bd5376671ba9    6.0 GB  3 weeks ago
+gemma:7b-text-q5_K_M            e0213c9dac57    6.0 GB  3 weeks ago
+llama-pro:8b-instruct-q5_K_M    d18736b3cdd5    5.9 GB  2 weeks ago
+llama2-uncensored:7b-chat       44040b922233    3.8 GB  7 minutes ago
+llava:13b-v1.6                  0d0eb4d7f485    8.0 GB  4 weeks ago
+meditron:latest                 ad11a6250f54    3.8 GB  18 minutes ago
+mistral:latest                  61e88e884507    4.1 GB  4 weeks ago
+mistrallite:7b-v0.1-q5_K_M      7a3f8c87136f    5.1 GB  11 hours ago
+nexusraven:13b-q5_K_M           3ba5150eacb6    9.2 GB  2 weeks ago
+starcoder2:15b-q5_K_M           60198ab58dbf    11 GB   2 weeks ago
+
